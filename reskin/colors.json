@@ -1,0 +1,18 @@
+{
+ "primaryColor": "#000000",
+  "secondaryColor": "#FFFFFF",
+  "textColor": "#ffffff",
+  "secondaryTextColor": "#d6d6d6",
+  "errorTextColor": "#FF0000",
+  "backgroundColor": "#000000",
+  "secondaryBackgroundColor": "#E0E0E0",
+  "borderColor": "#d6d6d6",
+  "focusColor": "#323237",
+  "hoverColor": "#B0B0B0",
+  "activeColor": "#007BFF",
+  "disabledColor": "#A0A0A0",
+  "successColor": "#28A745",
+  "errorColor": "#DC3545",
+  "warningColor": "#FFC107",
+  "infoColor": "#17A2B8"
+}

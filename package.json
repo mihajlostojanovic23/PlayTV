@@ -1,24 +1,32 @@
 {
-  "name": "PlayTV",
+  "name": "playtv",
   "description": "PlayTV",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "cross-env LNG_LIVE_RELOAD=true LNG_LIVE_RELOAD_PORT=8992 lng dev",
+    "test": "jest",
+    "build": "lng dist"
   },
   "dependencies": {
-    "@lightningjs/sdk": "^5.5.4"
+    "@lightningjs/sdk": "^5.5.4",
+    "@lightningjs/ui": "^1.3.19",
+    "@lightningjs/ui-components": "^2.21.6",
+    "axios": "^1.7.2"
   },
   "devDependencies": {
-    "typescript": "^4.7.4",
     "@babel/core": "^7.7.2",
+    "@types/node": "^20.14.5",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
     "babel-eslint": "^10.0.3",
+    "cross-env": "^7.0.3",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
   },
   "lint-staged": {
     "*.js": [
